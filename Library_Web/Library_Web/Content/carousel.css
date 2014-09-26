@@ -43,12 +43,15 @@ body {
 .carousel {
   height: 400px;
   margin-bottom: 60px;  
-  left: 201px;
-  margin-right: 201px;
+  left: 204px;
+  margin-right: 204px;
+  border-radius: 5px;
+ 
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  border-radius: 5px;
   
 }
 
@@ -56,13 +59,15 @@ body {
 .carousel .item {
   height: 400px;
   background-color: #777;
+  border-radius: 5px;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 400px;  
+  height: 400px; 
+   border-radius: 5px;
 }
 
 
