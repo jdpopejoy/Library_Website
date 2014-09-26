@@ -51,23 +51,25 @@ body {
 .carousel-box{
     float:left;
     height: 400px;
-    width:203px;
+    width:203.5px;
     background-image: url('/Images/Old_bookPage.jpg');
     background-repeat: no-repeat;
     background-size:cover;
-
-
-    border: 6px outset orange;
-    /*background: black;*/
+    border: 6px ridge orange;
     
 }
 /*Hours of operation text*/
 .carousel-box p{
-    margin-bottom: 20px;
-    font-size:   21px;
-    line-height: 1.4;
+    margin-top: 23px;
+    margin-left: 18px;
+    font-size: 14px;
+    line-height: 1.0;
+    font-family: Rockwell;
 }
 
+.carousel-box br{
+
+}
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
