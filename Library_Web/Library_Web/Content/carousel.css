@@ -16,7 +16,7 @@ body {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 0;
+  top: 30px;
   right: 0;
   left: 0;
   z-index: 20;
@@ -25,7 +25,7 @@ body {
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 0; 
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -43,15 +43,16 @@ body {
 .carousel {
   height: 400px;
   margin-bottom: 60px;  
-  margin-left: 203px;
+  margin-left: 204px;
   border-radius: 5px;
+  margin-top:131px;
 }
 
 /*Hours of operation*/
 .carousel-box{
     float:left;
     height: 400px;
-    width:203.5px;
+    width:204px;
     background-image: url('/Images/Old_bookPage.jpg');
     background-repeat: no-repeat;
     background-size:cover;
@@ -67,9 +68,6 @@ body {
     font-family: Rockwell;
 }
 
-.carousel-box br{
-
-}
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -80,6 +78,7 @@ body {
 .carousel .item {
   height: 400px;
   background-color: #777;
+
 }
 .carousel-inner > .item > img {
   position: absolute;

@@ -89,6 +89,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\Library.jpg" />
     <Content Include="Images\Old_bookPage.jpg" />
+    <Content Include="Images\spl-Logo1.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
