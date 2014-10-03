@@ -42,14 +42,16 @@ body {
 /* Carousel base class */
 .carousel {
   height: 400px;
+  margin-top:131px;
   margin-bottom: 60px;  
   margin-left: 204px;
   border-radius: 5px;
-  margin-top:131px;
+
 }
 
 /*Hours of operation*/
 .carousel-box{
+    margin-top:131px;
     float:left;
     height: 400px;
     width:204px;
